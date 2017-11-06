@@ -64,3 +64,9 @@ th, td {
   text-align: left;
   padding: 3px 20px;
 }
+th:last-child,
+td:last-child,
+th:nth-last-child(1),
+td:nth-last-child(1) {
+    text-align: center;
+}
